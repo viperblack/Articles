@@ -1,0 +1,24 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\title{Utilizar Internet Banking do Itaú no Google Chrome em qualquer Linux}
+\author{Vimerson Pereira da Silva}
+\begin{document}
+\maketitle
+O Itaú utiliza como camadas de segurança um "Aplicativo Guardião" ou um aplicativo que substitue o acesso via browser o problema é que os dois só são compatíveis com o Windows e nem tente utilizar o Wine para esta ignóbil tarefa.\\
+
+Mas descobri, recentemente, que se o seu browser se apresentar para o Itaú, sendo o Google Chrome rodando no sistema operacional BSD, tudo bem... Abrem-se as Portas da Esperança. Veja mais aqui: \href{https://www.vivaolinux.com.br/dica/Acessar-site-do-Itau-Banco-de-qualquer-Linux-2016}{Itaú Bankline via Linux}\\
+
+Mas o procedimento faz o Firefox dizer que é o Chrome. Vamos fazer o Chrome dizer que é ele mesmo, mas rodando no BSD.\\
+Para isso precisaremos instalar:\\
+User-Agent-Switcher via 
+\href{https://chrome.google.com/webstore/detail/user-agent-switcher/lkmofgnohbedopheiphabfhfjgkhfcgf?utm_source=chrome-app-launcher-info-dialog}{Chrome Web Store}.\\
+
+Depois de instalado vá até o ícone da extensão User-agent-switcher e colar a seguinte string \textit{Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36} no campo de texto e clicar "Change".
+
+
+\end{document}
