@@ -1,4 +1,4 @@
-#Variety of articles
+<b>#Variety of articles</b>
 
 Itau_Linux.tex<br />
 Using anyone internet banking Itaú from Google Chrome in anyone Linux flavor.<br />
