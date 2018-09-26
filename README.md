@@ -1,4 +1,6 @@
 <b>#Variety of articles</b>
+If you know LaTex, download files (articles) compile and enjoy!
+But if you don´t know LaTeX, copy an paste the text in https://texviewer.herokuapp.com/ after click button "View as PDF" and enjoy!
 
 Itau_Linux.tex<br />
 Using anyone internet banking Itaú from Google Chrome in anyone Linux flavor.<br />
